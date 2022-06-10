@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Stack, Box, Typography, styled } from '@mui/material'
 import { EmailRounded, PersonRounded, PhoneRounded } from '@mui/icons-material';
+
 import { theme } from '../../theme';
 
 const CustomBox = styled(Box)(({ theme }) => ({

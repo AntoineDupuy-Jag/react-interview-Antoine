@@ -1,7 +1,9 @@
 import React from 'react';
 
 import { Stack, Box, Typography, Button, styled } from '@mui/material';
-import { theme } from '../../theme';
+
+import cv from '../../docs/CV.pdf';
+import rapport from '../../docs/Rapport.pdf';
 
 export const Header = () => {
 
@@ -33,8 +35,8 @@ export const Header = () => {
           <Typography variant="h5" sx={{color: "white", fontWeight: "200"}}>par Antoine Dupuy</Typography>
         </Box>
         <Box sx={{display: "flex", justifyContent: "space-between", margin: 5}}>
-          <CustomButton variant="outlined" href="public\CV Antoine DUPUY Développeur Front-end 11 2021.pdf" download>Mon CV</CustomButton>
-          <CustomButton variant="outlined" href="public\Rapport de stage SportEasy.pdf" download>Rapport de stage</CustomButton>
+          <CustomButton variant="outlined" href={cv} download>Mon CV</CustomButton>
+          <CustomButton variant="outlined" href={rapport} download>Rapport de stage</CustomButton>
         </Box>
         <Background />
       </Stack>

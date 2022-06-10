@@ -15,7 +15,6 @@ import {
 
 import { movies$ } from '../../movies';
 import { deleteMovie, editLike, editDislike } from '../../feature/movies.slice';
-import {theme} from '../../theme';
 
 // CUSTOM MATERIAL-UI and RESPONSIVE COMPONENTS
 const CustomCard = styled(Card)(({ theme }) => ({
